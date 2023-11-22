@@ -1,5 +1,4 @@
 
-```markdown
 # Nền tảng chia sẻ kiến thức về trồng cây và làm vườn
 
 Đây là một dự án nhằm xây dựng nền tảng chia sẻ kiến thức về trồng cây và làm vườn. 
