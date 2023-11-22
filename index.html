@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chia sẻ kiến thức vườn cây</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Chia sẻ kiến thức về trồng cây và làm vườn</h1>
+  
+  <form id="knowledgeForm" action="save_knowledge.php" method="post">
+    <label for="author">Tác giả:</label>
+    <input type="text" id="author" name="author" required><br><br>
+    
+    <label for="topic">Chủ đề:</label>
+    <input type="text" id="topic" name="topic" required><br><br>
+    
+    <label for="content">Nội dung:</label><br>
+    <textarea id="content" name="content" rows="4" cols="50" required></textarea><br><br>
+    
+    <input type="submit" value="Chia sẻ kiến thức">
+  </form>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
